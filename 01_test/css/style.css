@@ -1,0 +1,127 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    color: #303030;
+    font-size: 15px;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/* header */
+
+header {
+    margin: 50px 0 80px;
+}
+
+h1 {
+    width: 165px;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 20px;
+}
+.current {
+    color: #ffbf9d;
+}
+
+/* main */
+
+article {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+article img {
+    width: 30%;
+    object-fit: cover;
+    align-items: center;
+    flex: 1;
+    height: 30%;
+    min-width: 100px;
+}
+
+article div {
+    width: 64%;
+    margin-left: 30px;
+    /* vertical-align: middle; */
+}
+article h2 {
+    margin-bottom: 14px;
+}
+
+div.subscribe {
+    margin: 80px 0 0;
+    background: #FDF5ED;
+    padding: 40px 30px;
+}
+
+.subscribe p {
+    margin: 30px 0 40px;
+}
+
+.subscribe button {
+    background: #FFBF9D;
+    color: #fff;
+    padding: 18px 40px;
+}
+
+
+address {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: #707070 1px solid;
+}
+
+dl {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+dt {
+    background: #303030;
+    color: #fff;
+    text-align: center;
+    width: 100px;
+}
+
+dd {
+    font-style: normal;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+}
+
+p small {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media (min-width:600px) {
+
+}
